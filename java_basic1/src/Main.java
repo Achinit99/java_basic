@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int number = 10;
-        System.out.println(number);
+        int age = 23;
+
+        System.out.print("My age is "+age);
 
     }
 }
