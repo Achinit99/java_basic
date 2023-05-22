@@ -58,13 +58,13 @@
 //    }
 //}
 
-import java.util.Scanner;
-
-public  class Main {
-    public static void main(String args[])
-    {
-        Scanner sun = new Scanner(System.in);
-
-        System.out.println(sun.nextLine()); //(sun.next())
-    }
-}
+//import java.util.Scanner;
+//
+//public  class Main {
+//    public static void main(String args[])
+//    {
+//        Scanner sun = new Scanner(System.in);
+//
+//        System.out.println(sun.nextLine()); //(sun.next())
+//    }
+//}
