@@ -68,3 +68,10 @@
 //        System.out.println(sun.nextLine()); //(sun.next())
 //    }
 //}
+
+public class Main {
+    public static void main(String args[])
+    {
+        int num1, num2, answer;
+    }
+}
