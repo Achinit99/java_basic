@@ -48,12 +48,23 @@
 //    }
 //}
 
-import javax.swing.JOptionPane;
-public class Main {
+//import javax.swing.JOptionPane;
+//public class Main {
+//
+//    public static void main(String args[])
+//    {
+//        String name = JOptionPane.showInputDialog("Hi! What is your name ? ");
+//        JOptionPane.showMessageDialog(null , "I love you "+name+" !");
+//    }
+//}
 
+import java.util.Scanner;
+
+public  class Main {
     public static void main(String args[])
     {
-        String name = JOptionPane.showInputDialog("Hi! What is your name ? ");
-        JOptionPane.showMessageDialog(null , "I love you "+name+" !");
+        Scanner sun = new Scanner(System.in);
+
+        System.out.println(sun.nextLine()); //(sun.next())
     }
 }
