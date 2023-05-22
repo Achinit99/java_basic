@@ -69,16 +69,16 @@
 //    }
 //}
 
-public class Main {
-    public static void main(String args[])
-    {
-        int num1, num2, answer;
-
-        num1 = 11;
-        num2 = 10;
-
-        answer = num1 + num2;
-
-        System.out.println(answer);
-    }
-}
+//public class Main {
+//    public static void main(String args[])
+//    {
+//        int num1, num2, answer;
+//
+//        num1 = 11;
+//        num2 = 10;
+//
+//        answer = num1 + num2;
+//
+//        System.out.println(answer);
+//    }
+//}
