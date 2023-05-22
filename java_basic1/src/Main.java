@@ -76,5 +76,9 @@ public class Main {
 
         num1 = 11;
         num2 = 10;
+
+        answer = num1 + num2;
+
+        System.out.println(answer);
     }
 }
