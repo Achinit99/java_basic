@@ -103,5 +103,9 @@ public class Main {
         System.out.println("Enter your second number");
         no2 = sun.nextDouble();
 
+        ans = no1 + no2;
+
+        System.out.println("Your answer is "+ ans);
+
     }
 }
