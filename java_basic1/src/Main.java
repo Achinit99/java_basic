@@ -95,7 +95,9 @@ public class Main {
         // ** Create variable **
         double n01, no2, ans;
 
-        //
+        // ** Message user -> 01 **
+        System.out.println("Enter your first number");
+        no1 = sun.nextDouble();
 
     }
 }
