@@ -118,15 +118,27 @@ import java.sql.SQLOutput;
 public class Main {
 
     public static void main (String[] args) {
+         /*
+        // first (if/else) condition
         int num = 5;
 
-        /*
-        // first (if/else) condition
         if (num == 10)
         {
             System.out.println("Yes");
         }else {
             System.out.println("No");
         } */
+
+        int maths = 55;
+        int sinhala = 75;
+
+        if(maths > 50)
+        {
+            System.out.println("Pass");
+        } else {
+            System.out.println("Fail");
+        }
+
+
     }
 }
