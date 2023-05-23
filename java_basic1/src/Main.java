@@ -120,11 +120,13 @@ public class Main {
     public static void main (String[] args) {
         int num = 5;
 
+        /*
+        // first (if/else) condition
         if (num == 10)
         {
             System.out.println("Yes");
         }else {
             System.out.println("No");
-        }
+        } */
     }
 }
