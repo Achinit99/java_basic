@@ -89,6 +89,13 @@ public class Main {
 
     public static void main(String args[])
     {
+        // ** Create scanner variable **
+        Scanner sun = new Scanner(System.in);
+
+        // ** Create variable **
+        double n01, no2, ans;
+
+        //
 
     }
 }
