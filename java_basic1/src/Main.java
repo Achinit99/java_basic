@@ -93,11 +93,15 @@ public class Main {
         Scanner sun = new Scanner(System.in);
 
         // ** Create variable **
-        double n01, no2, ans;
+        double no1, no2, ans;
 
         // ** Message user -> 01 **
         System.out.println("Enter your first number");
         no1 = sun.nextDouble();
+
+        // ** Message user -> 02 **
+        System.out.println("Enter your second number");
+        no2 = sun.nextDouble();
 
     }
 }
