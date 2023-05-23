@@ -48,6 +48,7 @@
 //    }
 //}
 
+// Message box -----------------------
 //import javax.swing.JOptionPane;
 //public class Main {
 //
@@ -58,6 +59,7 @@
 //    }
 //}
 
+//------------------------------------------
 //import java.util.Scanner;
 //
 //public  class Main {
@@ -69,6 +71,7 @@
 //    }
 //}
 
+// ---------------------------------------
 //public class Main {
 //    public static void main(String args[])
 //    {
@@ -83,29 +86,45 @@
 //    }
 //}
 
-//simple calculator ****
-import java.util.Scanner;
+// simple calculator --------------------------
+//import java.util.Scanner;
+//public class Main {
+//
+//    public static void main(String args[])
+//    {
+//        // ** Create scanner variable **
+//        Scanner sun = new Scanner(System.in);
+//
+//        // ** Create variable **
+//        double no1, no2, ans;
+//
+//        // ** Message user -> 01 **
+//        System.out.println("Enter your first number :");
+//        no1 = sun.nextDouble();
+//
+//        // ** Message user -> 02 **
+//        System.out.println("Enter your second number :");
+//        no2 = sun.nextDouble();
+//
+//        ans = no1 + no2;
+//
+//        System.out.println("Your answer is :"+ ans);
+//
+//    }
+//}
+
+import java.sql.SQLOutput;
+
 public class Main {
 
-    public static void main(String args[])
-    {
-        // ** Create scanner variable **
-        Scanner sun = new Scanner(System.in);
+    public static void main (String[] args) {
+        int num = 5;
 
-        // ** Create variable **
-        double no1, no2, ans;
-
-        // ** Message user -> 01 **
-        System.out.println("Enter your first number");
-        no1 = sun.nextDouble();
-
-        // ** Message user -> 02 **
-        System.out.println("Enter your second number");
-        no2 = sun.nextDouble();
-
-        ans = no1 + no2;
-
-        System.out.println("Your answer is "+ ans);
-
+        if (num == 10)
+        {
+            System.out.println("Yes");
+        }else {
+            System.out.println("No");
+        }
     }
 }
