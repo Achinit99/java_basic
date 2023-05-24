@@ -132,7 +132,7 @@ public class Main {
         int maths = 55;
         int sinhala = 75;
 
-        if(maths > 50)
+        if(maths > 50 && sinhala > 60)
         {
             System.out.println("Pass");
         } else {
