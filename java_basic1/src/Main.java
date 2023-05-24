@@ -129,7 +129,7 @@ public class Main {
             System.out.println("No");
         } */
 
-        int maths = 55;
+        /* int maths = 55;
         int sinhala = 75;
 
         if(maths > 50 && sinhala > 60)
@@ -137,8 +137,22 @@ public class Main {
             System.out.println("Pass");
         } else {
             System.out.println("Fail");
+        } */
+
+
+        // -- else if statements ------------
+        int marks = 67;
+
+        if(marks >= 75) {
+            System.out.println("Your grade is A");
+        } else if (marks >= 65) {
+            System.out.println("Your grade is B");
+        }else if (marks >= 55) {
+            System.out.println("Your grade is C");
+        }else if (marks >= 45) {
+            System.out.println("Your grade is S");
+        } else {
+            System.out.println("Your grade is F");
         }
-
-
     }
 }
