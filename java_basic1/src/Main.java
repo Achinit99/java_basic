@@ -184,8 +184,8 @@ public class Main {
         System.out.print("Most frequent element is: " + maxfreq); */
 
 
-        // ---- nested if statements ----
-        int age = 17;
+        /* // ---- nested if statements ----
+        int age = 14;
 
         if (age > 18){
             System.out.println("You can log");
@@ -196,6 +196,27 @@ public class Main {
             } else {
                 System.out.println("Sorry !!");
             }
+        } */
+
+
+       /* // ---- switch statements ---
+        int age = 8;
+
+        switch (age) {
+            case 15:
+                System.out.println("Your age is 15");
+                break;
+            case 16:
+                System.out.println("Your age is 16");
+                break;
+            case 17:
+                System.out.println("Your age is 17");
+                break;
+            case 18:
+                System.out.println("Your age is 18");
+                break;
+            default:
+                System.out.println("I don't Know"); */
         }
 
     }
