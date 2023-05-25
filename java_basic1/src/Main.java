@@ -165,5 +165,15 @@ public class Main {
         int countMx = 0;
         int maxfreq = 0;
 
+        // Logical implementation
+        for (int i = 0; i < n; i++){
+            int count = 0;
+            for (int x = 0; x < n; x++){
+                if(arr[i] == arr[x]){
+                    count++;
+                }
+            }
+        }
+
     }
 }
