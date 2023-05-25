@@ -183,5 +183,20 @@ public class Main {
         //print the result
         System.out.print("Most frequent element is: " + maxfreq); */
 
+
+        // ---- nested if statements ----
+        int age = 17;
+
+        if (age > 18){
+            System.out.println("You can log");
+        } else {
+            System.out.println("You can't log 18+ web");
+            if (age > 14){
+                System.out.println("But you can log 14+ web");
+            } else {
+                System.out.println("Sorry !!");
+            }
+        }
+
     }
 }
