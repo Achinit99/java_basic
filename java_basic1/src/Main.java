@@ -155,7 +155,8 @@ public class Main {
             System.out.println("Your grade is F");
         } */
 
-        // ---- how to find most frequent number in array java ------
+
+       /*  // ---- how to find most frequent number in array java ------
 
         //Declare and initialize the array elements
         int[] arr = { 1, 2, 3, 1, 5, 7, 5, 5, 9 };
@@ -180,6 +181,7 @@ public class Main {
             }
         }
         //print the result
-        System.out.print("Most frequent element is: " + maxfreq);
+        System.out.print("Most frequent element is: " + maxfreq); */
+
     }
 }
