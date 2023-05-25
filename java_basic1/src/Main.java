@@ -159,5 +159,11 @@ public class Main {
 
         // Declare and initialize the array elements
         int[] arr = { 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 4, 1, 12, 13, 15};
+
+        // get the length of the array
+        int n = arr.length;
+        int countMx = 0;
+        int maxfreq = 0;
+
     }
 }
