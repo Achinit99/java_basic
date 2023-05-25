@@ -141,7 +141,7 @@ public class Main {
 
 
         // -- else if statements ------------
-        int marks = 67;
+       /* int marks = 67;
 
         if(marks >= 75) {
             System.out.println("Your grade is A");
@@ -153,6 +153,11 @@ public class Main {
             System.out.println("Your grade is S");
         } else {
             System.out.println("Your grade is F");
-        }
+        } */
+
+        // ---- how to find most frequent number in array java ------
+
+        // Declare and initialize the array elements
+        int[] arr = { 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 4, 1, 12, 13, 15};
     }
 }
