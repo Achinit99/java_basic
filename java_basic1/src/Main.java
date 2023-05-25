@@ -157,23 +157,29 @@ public class Main {
 
         // ---- how to find most frequent number in array java ------
 
-        // Declare and initialize the array elements
-        int[] arr = { 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 4, 1, 12, 13, 15};
+        //Declare and initialize the array elements
+        int[] arr = { 1, 2, 3, 1, 5, 7, 5, 5, 9 };
 
-        // get the length of the array
+        //get the length of the array
         int n = arr.length;
-        int countMx = 0;
+        int max_count = 0;
         int maxfreq = 0;
 
-        // Logical implementation
+        //Logic implementation
         for (int i = 0; i < n; i++){
             int count = 0;
-            for (int x = 0; x < n; x++){
-                if(arr[i] == arr[x]){
+            for (int j = 0; j < n; j++){
+                if (arr[i] == arr[j]){
                     count++;
                 }
             }
-        }
 
+            if (count > max_count){
+                max_count = count;
+                maxfreq = arr[i];
+            }
+        }
+        //print the result
+        System.out.print("Most frequent element is: " + maxfreq);
     }
 }
