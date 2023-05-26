@@ -218,15 +218,7 @@ public class Main {
             default:
                 System.out.println("I don't Know");
         } */
-
-        int count = 0;
-
-        while (){
-            
-        }
-
-
-
+        
 
     }
 }
