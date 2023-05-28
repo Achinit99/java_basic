@@ -218,7 +218,14 @@ public class Main {
             default:
                 System.out.println("I don't Know");
         } */
-        
+
+        // While loop 1
+        int count = 0;
+
+        while (count < 5){
+            System.out.println("Achini");
+            count ++;
+        }
 
     }
 }
